@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+
+/* MAP CSS FROM https://github.com/xihai01/d3-mapping-with-react/tree/main/root/src/components */
+.map-canvas {
+    height: 480px;
+    width: 960px;
+    color: #fff;
+    background-color: "#D37506";
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.19);
+  }
+
+.map-path {
+    fill: rgb(132, 0, 255);
+    stroke: cornsilk;
+    stroke-width: 1px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.map-path:hover {
+    cursor: pointer;
+    fill: rgb(255, 145, 0);
+    fill-opacity: 0.5;
 }
