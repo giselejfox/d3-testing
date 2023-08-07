@@ -2,7 +2,7 @@ import * as d3 from 'd3'
 
 import { useMapTools } from "../../hooks/useMapTools";
 import { setMapProjection } from "../../helpers/setMapProjection"
-import { handleMouseOver, handleMouseOut, handleMouseMove } from "../../helpers/handleToolTip";
+import { handleMouseOver, handleMouseOut, handleMouseMove } from "../../helpers/handleTooltip";
 
 // https://github.com/xihai01/d3-mapping-with-react
 
